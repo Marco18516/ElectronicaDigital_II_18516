@@ -1,0 +1,226 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"41 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X/LIB_ADC.h
+[v _ADC_INIT ADC_INIT `(v  1 e 1 0 ]
+"45
+[v _ADC_READ ADC_READ `(ui  1 e 2 0 ]
+"54
+[v _ADC_INTERRUPT ADC_INTERRUPT `(v  1 e 1 0 ]
+"38 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X/LIB_Display.h
+[v _Display Display `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"56 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X\Laboratorio_02.c
+[v _isr isr `II(v  1 e 1 0 ]
+"102
+[v _main main `(v  1 e 1 0 ]
+"124
+[v _CONFIG_IO CONFIG_IO `(v  1 e 1 0 ]
+"139
+[v _CONFIG_INTERRUPT CONFIG_INTERRUPT `(v  1 e 1 0 ]
+"146
+[v _Display_ Display_ `(v  1 e 1 0 ]
+"157
+[v _toggle toggle `(v  1 e 1 0 ]
+"166
+[v _separacion separacion `(v  1 e 1 0 ]
+"59 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @1 ]
+"166
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S96 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"245
+[u S105 . 1 `S96 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES105  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S193 . 1 `uc 1 RE0 1 0 :1:0 
+`uc 1 RE1 1 0 :1:1 
+`uc 1 RE2 1 0 :1:2 
+`uc 1 RE3 1 0 :1:3 
+]
+"427
+[u S198 . 1 `S193 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES198  1 e 1 @9 ]
+"459
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S64 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S73 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S78 . 1 `S64 1 . 1 0 `S73 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES78  1 e 1 @11 ]
+[s S43 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"553
+[u S51 . 1 `S43 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES51  1 e 1 @12 ]
+"1238
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1245
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S124 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1276
+[s S129 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S138 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S141 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S144 . 1 `S124 1 . 1 0 `S129 1 . 1 0 `S138 1 . 1 0 `S141 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES144  1 e 1 @31 ]
+"1346
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+[s S24 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1718
+[u S32 . 1 `S24 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES32  1 e 1 @140 ]
+"2416
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"2977
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"4361
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"40 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X\Laboratorio_02.c
+[v _contador contador `i  1 e 2 0 ]
+"41
+[v _cont cont `i  1 e 2 0 ]
+"42
+[v _BANDERAS BANDERAS `i  1 e 2 0 ]
+"43
+[v _result_adc1 result_adc1 `ui  1 e 2 0 ]
+"44
+[v _mas_sig mas_sig `ui  1 e 2 0 ]
+"45
+[v _menos_sig menos_sig `ui  1 e 2 0 ]
+"102
+[v _main main `(v  1 e 1 0 ]
+{
+"122
+} 0
+"157
+[v _toggle toggle `(v  1 e 1 0 ]
+{
+"164
+} 0
+"166
+[v _separacion separacion `(v  1 e 1 0 ]
+{
+"169
+} 0
+"124
+[v _CONFIG_IO CONFIG_IO `(v  1 e 1 0 ]
+{
+"137
+} 0
+"139
+[v _CONFIG_INTERRUPT CONFIG_INTERRUPT `(v  1 e 1 0 ]
+{
+"144
+} 0
+"54 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X/LIB_ADC.h
+[v _ADC_INTERRUPT ADC_INTERRUPT `(v  1 e 1 0 ]
+{
+"57
+} 0
+"41
+[v _ADC_INIT ADC_INIT `(v  1 e 1 0 ]
+{
+"43
+} 0
+"56 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X\Laboratorio_02.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"96
+} 0
+"146
+[v _Display_ Display_ `(v  1 e 1 0 ]
+{
+"155
+} 0
+"38 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X/LIB_Display.h
+[v _Display Display `(v  1 e 1 0 ]
+{
+[v Display@num num `uc  1 a 1 wreg ]
+[v Display@num num `uc  1 a 1 wreg ]
+[v Display@num num `uc  1 a 1 2 ]
+"140
+} 0
+"45 C:\Users\steff\Desktop\Septimo semestre\Digital II\ElectronicaDigital_II_2021\Lab02\Lab02.X/LIB_ADC.h
+[v _ADC_READ ADC_READ `(ui  1 e 2 0 ]
+{
+[v ADC_READ@canal canal `us  1 p 2 0 ]
+"52
+} 0
